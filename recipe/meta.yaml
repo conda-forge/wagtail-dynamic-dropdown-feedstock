@@ -1,5 +1,5 @@
 {% set name = "wagtail-dynamic-dropdown" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wagtail-dynamic-dropdown-{{ version }}.tar.gz
-  sha256: d386815378684b88ce59c5b4061767b4821434c39081a365d6931ff936502ea0
+  sha256: 3d18e405afeefacc9b9b908ad72919c8482a8973ebc6c8243bcdb786888d4c0a
 
 build:
   noarch: python
